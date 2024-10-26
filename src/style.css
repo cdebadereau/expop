@@ -6,10 +6,10 @@ header nav {
   font-size: 25px;
 }
 
-header .intro {
+header .hero {
   background-color: #02c1cc;
-  padding: 60px;
-  margin-bottom: 20px;
+  padding: 200px 80px;
+  margin-bottom: 30px;
 }
 
 header h1 {
@@ -25,9 +25,12 @@ h4 {
   font-weight: bold;
 }
 
-header .intro ul {
-  margin: 0;
+header .hero ul {
+  margin-top: 40px;
   padding: 0;
+  line-height: 2.5;
+  text-align: center;
+  font-size: 25px;
 }
 
 header li {
@@ -39,16 +42,16 @@ main h4 {
   font-size: 25px;
 }
 
-footer {
-  padding: 40px 40px;
-  margin-top: 20px;
-  text-align: center;
-  background-color: rgba(164, 176, 176, 0.969);
-}
-
 .container {
   margin: 30px auto;
   padding: 0 auto;
   text-align: center;
   max-width: 1200px;
+}
+
+footer {
+  padding: 40px 40px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgba(164, 176, 176, 0.969);
 }
