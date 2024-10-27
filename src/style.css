@@ -67,7 +67,16 @@ main h4 {
   margin: 30px auto;
   padding: 0 auto;
   text-align: center;
-  max-width: 1200px;
+  max-width: 1500px;
+}
+
+main .project-intro {
+  margin-top: 50px;
+}
+
+main .project-definition {
+  padding: 30px 25px;
+  text-align: left;
 }
 
 footer {
