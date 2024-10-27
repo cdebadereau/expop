@@ -85,3 +85,9 @@ footer {
   text-align: center;
   background-color: rgba(164, 176, 176, 0.969);
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+  }
+}
