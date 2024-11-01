@@ -1,6 +1,7 @@
 :root {
   --main-color: #02c1cc;
-  --heading-font-family: "Onest", sans-serif;
+  --heading-font-family: "DynaPuff", system-ui;
+  --text-font-family: "Onest", sans-serif;
 }
 
 header img {
@@ -59,6 +60,10 @@ header button:hover {
   color: #000;
 }
 
+main {
+  font-size: 25px;
+}
+
 main h4 {
   text-align: left;
   font-size: 25px;
@@ -72,12 +77,19 @@ main h4 {
 }
 
 main .project-intro {
-  margin-top: 50px;
+  margin: 80px auto;
+  line-height: 37px;
 }
 
 main .project-definition {
   padding: 30px 25px;
   text-align: left;
+}
+
+main .expop-name {
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+  text-decoration-color: var(--main-color);
 }
 
 footer {
