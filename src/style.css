@@ -4,6 +4,10 @@
   --text-font-family: "Onest", sans-serif;
 }
 
+body {
+  font-family: var(--text-font-family);
+}
+
 header img {
   margin: 20px 30px;
 }
@@ -28,7 +32,6 @@ h2,
 h3,
 h4 {
   font-family: var(--heading-font-family);
-  font-weight: bold;
 }
 
 header .hero ul {
@@ -61,7 +64,7 @@ header button:hover {
 }
 
 main {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 main h4 {
