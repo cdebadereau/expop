@@ -8,17 +8,46 @@ body {
   font-family: var(--text-font-family);
 }
 
-header img {
-  margin: 20px 30px;
+nav {
+  padding: 10px 300px;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
 }
 
-header nav {
+nav .home-link {
+  color: var(--main-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  transition: all 250ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--main-color);
+}
+
+nav ul {
+  padding: 65px 0 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
   font-size: 25px;
+  margin-left: 30px;
+}
+
+nav .logo {
+  max-height: 150px;
 }
 
 header .hero {
   background-color: var(--main-color);
-  padding: 200px 80px;
+  padding: 280px 0 100px;
   margin-bottom: 30px;
 }
 
@@ -42,7 +71,7 @@ header .hero ul {
   font-size: 25px;
 }
 
-header li {
+.hero li {
   list-style: none;
 }
 
@@ -76,7 +105,6 @@ main h4 {
   margin: 30px auto;
   padding: 0 30px;
   text-align: center;
-  max-width: 2000px;
 }
 
 main .project-intro {
@@ -116,7 +144,20 @@ footer {
   background-color: rgba(164, 176, 176, 0.969);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  nav {
+    padding: 0 10px;
+  }
+
+  nav ul {
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  nav li {
+    font-size: 15px;
+  }
+
   h1 {
     font-size: 35px;
   }

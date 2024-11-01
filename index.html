@@ -35,13 +35,19 @@
 
   <body>
     <header>
-      <nav>
-        <img src="img/expop-logo.png" alt="Logo d'Expop" width="200px" />
+      <nav class="d-flex justify-content-between">
+        <a href="/"
+          ><img
+            src="img/expop-logo.png"
+            class="logo d-none d-lg-block"
+            alt="Logo Expop"
+          />
+        </a>
         <ul>
-          <li>Home</li>
-          <li>Le projet</li>
-          <li>Les expos</li>
-          <li>Contact</li>
+          <li><a href="#" class="home-link">Accueil</a></li>
+          <li><a href="#project-intro">Projet</a></li>
+          <li><a href="#exhibitions">Expos</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div class="hero">
@@ -62,7 +68,7 @@
     </header>
 
     <main class="container">
-      <section class="project-intro">
+      <section class="project-intro" id="project-intro">
         <h2><span class="expop-name">EXPO</span>P, c'est quoi ?</h2>
         <span class="expop-name">EXPO</span>P, c'est une galerie de portraits de
         personnalités et de personnages, associés de près ou de loin à la
@@ -133,7 +139,7 @@
           </div>
         </div>
       </section>
-      <section class="exhibitions">
+      <section class="exhibitions" id="exhibitions">
         <h2>Expos</h2>
       </section>
     </main>
