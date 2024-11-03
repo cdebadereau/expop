@@ -138,6 +138,19 @@ main .expop-name {
   margin-bottom: 20px;
 }
 
+.ole-kirk-christiansen-intro h3 {
+  text-align: center;
+}
+.ole-kirk-christiansen-intro {
+  padding: 50px 60px;
+  text-align: left;
+}
+
+.exhibitions img {
+  border-radius: 6px;
+  margin: 5px;
+}
+
 footer {
   padding: 40px 40px;
   margin-top: 20px;
@@ -147,7 +160,7 @@ footer {
 
 @media (max-width: 1000px) {
   nav {
-    padding: 0 10px;
+    padding: 10px 5px;
   }
 
   nav ul {
@@ -165,5 +178,9 @@ footer {
 
   main .exhibitions img {
     margin-bottom: 20px;
+  }
+
+  .ole-kirk-christiansen-intro {
+    padding: 0 60px;
   }
 }
