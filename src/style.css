@@ -30,30 +30,30 @@ nav a:hover {
 }
 
 nav ul {
-  padding: 65px 0 0;
+  padding: 40px 0 0;
   margin: 0;
 }
 
 nav li {
   list-style: none;
   display: inline;
-  font-size: 25px;
+  font-size: 18px;
   margin-left: 30px;
 }
 
 nav .logo {
-  max-height: 150px;
+  max-height: 95px;
 }
 
 header .hero {
   background-color: var(--main-color);
-  padding: 280px 0 100px;
+  padding: 225px 0 100px;
   margin-bottom: 30px;
 }
 
 header h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 h1,
@@ -68,7 +68,7 @@ header .hero ul {
   padding: 0;
   line-height: 2.5;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .hero li {
@@ -81,7 +81,7 @@ header button {
   padding: 20px 35px;
   color: #fff;
   background-color: #000;
-  font-size: 20px;
+  font-size: 15px;
   margin: 50px auto 0;
   display: block;
   transition: all 250ms ease-in-out;
@@ -93,12 +93,12 @@ header button:hover {
 }
 
 main {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 main h4 {
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .container {
@@ -109,13 +109,14 @@ main h4 {
 
 main .project-intro {
   margin: 80px auto;
-  line-height: 37px;
+  line-height: 28px;
 }
 
 main .project-definition {
   margin: 10px;
   padding: 30px;
   text-align: left;
+  line-height: 26px;
 }
 
 .project-definition a {
@@ -134,7 +135,7 @@ main .expop-name {
 }
 
 .project-highlight h4 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 footer {
