@@ -1,5 +1,5 @@
 :root {
-  --main-color: #02c1cc;
+  --main-color: #3fc1cc;
   --heading-font-family: "DynaPuff", system-ui;
   --text-font-family: "Onest", sans-serif;
 }
@@ -138,17 +138,22 @@ main .expop-name {
   margin-bottom: 20px;
 }
 
-.ole-kirk-christiansen-intro h3 {
+.character-intro h3 {
   text-align: center;
 }
-.ole-kirk-christiansen-intro {
-  padding: 50px 60px;
+
+.character-intro {
+  padding: 60px 80px;
   text-align: left;
 }
 
 .exhibitions img {
   border-radius: 6px;
-  margin: 5px;
+  margin: 10px auto;
+}
+
+.exhibitions hr {
+  border-top: 2px solid var(--main-color);
 }
 
 footer {
@@ -180,7 +185,7 @@ footer {
     margin-bottom: 20px;
   }
 
-  .ole-kirk-christiansen-intro {
-    padding: 0 60px;
+  .character-intro {
+    padding: 10px 20px 0;
   }
 }
