@@ -157,10 +157,11 @@ main .expop-name {
 }
 
 .contact {
-  background-color: #3fc1cc;
+  background-color: #3fc0cc62;
   text-align: center;
   padding: 30px 0;
-  margin: 0 80px;
+  margin: 0 180px;
+  border-radius: 6px;
 }
 
 .contact form {
@@ -170,19 +171,37 @@ main .expop-name {
   max-width: 500px;
 }
 
+.contact input,
 .contact textarea {
-  resize: both;
-  color: rgba(0, 0, 0, 0.337);
+  border-radius: 6px;
+  border: none;
+}
+
+.contact textarea {
+  resize: vertical;
+  color: rgba(0, 0, 0, 0.445);
   padding: 10px;
 }
 
 .contact button {
   margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #000;
+  padding: 10px 25px;
+  transition: all 250ms ease-in-out;
+}
+
+.contact button:hover {
+  border: 1px solid #000;
+  background-color: #b0e8ec;
+  color: #000;
 }
 
 footer {
   padding: 40px 40px;
-  margin-top: 20px;
+  margin-top: 60px;
   text-align: center;
   background-color: rgba(164, 176, 176, 0.969);
 }
