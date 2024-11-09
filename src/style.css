@@ -203,10 +203,31 @@ main .expop-name {
 }
 
 footer {
-  padding: 40px 40px;
+  padding: 40px 200px;
   margin-top: 60px;
   text-align: center;
-  background-color: rgba(164, 176, 176, 0.969);
+  background-color: rgba(57, 66, 66, 0.969);
+  color: rgba(255, 255, 255, 0.522);
+}
+
+.footer-info a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.social-links {
+  margin: 0 auto;
+}
+
+.social-icons {
+  font-size: 35px;
+  color: var(--main-color);
+  transition: all 250ms ease-in-out;
+  padding: 5px;
+}
+
+.social-icons :hover {
+  color: #fff;
 }
 
 @media (max-width: 1000px) {
@@ -233,5 +254,9 @@ footer {
 
   .character-intro {
     padding: 10px 20px 0;
+  }
+
+  .contact {
+    margin: 0;
   }
 }
