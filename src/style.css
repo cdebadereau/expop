@@ -92,7 +92,12 @@ header button:hover {
   color: #000;
 }
 
+/* main */
+
 main {
+  margin: 30px auto;
+  padding: 0 30px;
+  text-align: center;
   font-size: 15px;
 }
 
@@ -100,20 +105,16 @@ main h4 {
   text-align: left;
   font-size: 20px;
 }
-
-main {
-  margin: 30px auto;
-  padding: 0 30px;
-  text-align: center;
-}
-
-main .project-intro {
+.project-intro {
   margin: 80px auto;
   line-height: 28px;
 }
 
-main .project-definition {
-  margin: 10px;
+.container-project-definitions {
+  padding: 0 15px;
+}
+
+.project-definition {
   padding: 30px;
   text-align: left;
   line-height: 26px;
@@ -155,6 +156,8 @@ main .expop-name {
 .exhibitions hr {
   border-top: 2px solid var(--main-color);
 }
+
+/* contact */
 
 .contact {
   background-color: #3fc0cc62;
