@@ -92,6 +92,11 @@ header button:hover {
   color: #000;
 }
 
+header button a {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* main */
 
 main {
