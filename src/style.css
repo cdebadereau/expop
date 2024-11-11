@@ -47,8 +47,7 @@ nav .logo {
 
 header .hero {
   background-color: var(--main-color);
-  padding: 225px 0 100px;
-  margin-bottom: 30px;
+  padding-top: 225px;
 }
 
 header h1 {
@@ -100,7 +99,7 @@ header button a {
 /* main */
 
 main {
-  margin: 30px auto;
+  margin: 0 auto 30px;
   padding: 0 30px;
   text-align: center;
   font-size: 15px;
@@ -111,7 +110,7 @@ main h4 {
   font-size: 20px;
 }
 .project-intro {
-  margin: 80px auto;
+  margin: 0 auto 80px;
   line-height: 28px;
 }
 
