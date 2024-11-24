@@ -60,6 +60,7 @@ h2,
 h3,
 h4 {
   font-family: var(--heading-font-family);
+  text-align: center;
 }
 
 header .hero ul {
@@ -159,6 +160,10 @@ main .expop-name {
 
 .exhibitions hr {
   border-top: 2px solid var(--main-color);
+}
+
+.gallery {
+  text-align: left;
 }
 
 /* contact */
