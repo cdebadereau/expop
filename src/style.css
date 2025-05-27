@@ -173,10 +173,15 @@ main .expop-name {
 
 /* galerie parallèle */
 .gallery .parallele {
-  padding: 30px 40px;
+  padding: 60px;
   margin: 10px 20px;
   border: 2px solid var(--main-color);
   border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.gallery .parallele:hover {
+  background: var(--main-color);
 }
 
 .gallery .parallele h4 {
