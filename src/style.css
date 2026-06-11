@@ -15,7 +15,7 @@ nav {
   width: 100%;
 }
 
-nav .home-link {
+nav .active-link {
   color: var(--main-color);
 }
 
@@ -79,7 +79,6 @@ header button {
   border-radius: 6px;
   border: 2px solid #000;
   padding: 20px 35px;
-  color: #fff;
   background-color: #000;
   font-size: 15px;
   margin: 50px auto 0;
@@ -101,7 +100,7 @@ header button a {
 
 main {
   margin: 0 auto 30px;
-  padding: 130px 30px 0;
+  padding: 20px 30px 0;
   text-align: center;
   font-size: 15px;
 }
@@ -214,7 +213,6 @@ main .expop-name {
 .contact textarea {
   resize: vertical;
   color: rgba(0, 0, 0, 0.445);
-  padding: 10px;
 }
 
 .contact button {
